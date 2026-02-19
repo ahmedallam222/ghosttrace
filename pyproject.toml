@@ -1,12 +1,29 @@
 [project]
 name = "ghosttrace"
-version = "0.1.0"
-description = "Record AI agent decisions, including phantom branches."
+version = "0.3.1"
+description = "Record AI agent decisions, including phantom branches, latency, and costs."
+readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Ahmed Allam", email = "ahmedallam222@gmail.com"}
+]
+keywords = ["ai", "agents", "llm", "tracing", "observability", "cost-tracking"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = [
     "typer[all]>=0.9.0",
     "rich>=13.0.0",
 ]
+
+[project.urls]
+"Homepage" = "https://github.com/ahmedallam222/ghosttrace"
+"Bug Tracker" = "https://github.com/ahmedallam222/ghosttrace/issues"
+"Source Code" = "https://github.com/ahmedallam222/ghosttrace"
 
 [project.scripts]
 ghosttrace = "ghosttrace.cli:app"

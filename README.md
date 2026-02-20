@@ -108,12 +108,14 @@ GhostTrace supports cost estimation for a range of popular LLM models. The prici
 
 | Model Name         | Input Cost (per 1K tokens) | Output Cost (per 1K tokens) |
 | :----------------- | :------------------------- | :-------------------------- |
-| `gpt-4`            | $0.03                      | $0.06                       |
+| `gpt-4o`           | $0.0025                    | $0.01                       |
+| `gpt-4o-mini`      | $0.00015                   | $0.0006                     |
 | `gpt-4-turbo`      | $0.01                      | $0.03                       |
-| `gpt-3.5-turbo`    | $0.0005                    | $0.0015                     |
+| `claude-3-5-sonnet`| $0.003                     | $0.015                      |
 | `claude-3-opus`    | $0.015                     | $0.075                      |
-| `claude-3-sonnet`  | $0.003                     | $0.015                      |
 | `claude-3-haiku`   | $0.00025                   | $0.00125                    |
+| `o1-preview`       | $0.015                     | $0.06                       |
+| `o1-mini`          | $0.003                     | $0.012                      |
 | `default`          | $0.002                     | $0.004                      |
 
 ---

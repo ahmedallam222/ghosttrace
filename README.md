@@ -106,17 +106,18 @@ ghosttrace replay <session_id>.ghost.json --show-phantoms
 
 GhostTrace supports cost estimation for a range of popular LLM models. The pricing is based on publicly available information and is updated periodically. You can specify the model used during `evaluate_and_record` to get accurate cost estimates.
 
-| Model Name         | Input Cost (per 1K tokens) | Output Cost (per 1K tokens) |
-| :----------------- | :------------------------- | :-------------------------- |
-| `gpt-4o`           | $0.0025                    | $0.01                       |
-| `gpt-4o-mini`      | $0.00015                   | $0.0006                     |
-| `gpt-4-turbo`      | $0.01                      | $0.03                       |
-| `claude-3-5-sonnet`| $0.003                     | $0.015                      |
-| `claude-3-opus`    | $0.015                     | $0.075                      |
-| `claude-3-haiku`   | $0.00025                   | $0.00125                    |
-| `o1-preview`       | $0.015                     | $0.06                       |
-| `o1-mini`          | $0.003                     | $0.012                      |
-| `default`          | $0.002                     | $0.004                      |
+| Model Name                   | Input Cost (per 1K tokens) | Output Cost (per 1K tokens) |
+| :--------------------------- | :------------------------- | :-------------------------- |
+| `gpt-5`                      | $0.00125                   | $0.01                       |
+| `gpt-5.2`                    | $0.00175                   | $0.01                       |
+| `gpt-4o`                     | $0.0025                    | $0.01                       |
+| `gpt-4o-mini`                | $0.00015                   | $0.0006                     |
+| `claude-4.6-opus`            | $0.005                     | $0.025                      |
+| `claude-4.6-sonnet`          | $0.003                     | $0.015                      |
+| `claude-4.6-sonnet-thinking` | $0.003                     | $0.015                      |
+| `o1`                         | $0.015                     | $0.06                       |
+| `o3`                         | $0.01                      | $0.04                       |
+| `default`                    | $0.002                     | $0.004                      |
 
 ---
 
